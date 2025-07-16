@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=""width=devide-width, intial-scale="1.0">
+        <title>Cosmic Gallery</title>
+        <link rel="stylesheet" href="july_cosmicGallery.css">
+
+    </head>
+
+    <body>
+
+        <div class="'cosmic_gallery">
+            <div class="gallery-thumbnails">
+                <img src="iss_NASA.jpg" alt="NASA image"
+                onclick="showImage(iss_NASA.jpg)">
+                <img src="UGC11397.jpg" alt="NASA image2"
+                onclick="showImage(UGC11397.jpg)">
+                <img src="GOES-13.png" alt="NASA image3"
+                onclick="showImage(GOES-13.png)">
+                <img src="pillars_creation.png" alt="NASA image4"
+                onclick="showImage(pillars_creation.png)">
+                <img src="Gemini_iv.png" alt="NASA image5"
+                onclick="showImage(Gemini_iv.png)"> 
+            </div>
+                <div class="gallery-display">
+                    <img id="main-image" src="iss_NASA2.jpg" alt="Main-image"
+                    onerror="handleImageError()">
+                </div>
+        </div>
+        <script src="july_cosmicGallery.js"></script>
+    </body>
+</html>
