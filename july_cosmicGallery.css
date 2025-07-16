@@ -1,0 +1,52 @@
+body {
+
+    font-family:Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.cosmic_gallery {
+    text-align: center;
+}
+
+.gallery-thumbnails img {
+
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.gallery-thumbnails img:hover {
+    transform: scale(1.1);
+    border-color: #007bff;
+}
+
+.gallery-display img {
+
+    width: 500px;
+    max-width: 100%;
+    margin-top: 20px;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+}
+
+.error-message {
+
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+    display: none;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
